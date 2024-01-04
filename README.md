@@ -9,3 +9,6 @@
 * az group create --location UKSouth --name az204-cosmos-rg;
 * az cosmosdb create --name bugfreedollop --resource-group az204-cosmos-rg;
 * az cosmosdb keys list --name bugfreedollop --resource-group az204-cosmos-rg;
+* dotnet build;
+* dotnet run;
+* az group delete --name az204-cosmos-rg --no-wait;
